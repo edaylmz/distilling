@@ -68,6 +68,25 @@ def fetch_dataloader(types, params):
         test_dir = data_dir + 'val/'
         trainset = torchvision.datasets.ImageFolder(train_dir, data_transforms['train'])
         devset = torchvision.datasets.ImageFolder(test_dir, data_transforms['val'])
+        
+    elif params.dataset == 'medical':
+        data_dir = '/content/semi/Skeptical2021/'
+        data_transforms = {
+            'train': transforms.Compose([
+                transforms.RandomRotation(20),
+                transforms.RandomHorizontalFlip(0.5),
+                transforms.ToTensor(),
+                transforms.Normalize([0.4802, 0.4481, 0.3975], [0.2302, 0.2265, 0.2262]),
+            ]),
+            'val': transforms.Compose([
+                transforms.ToTensor(),
+                transforms.Normalize([0.4802, 0.4481, 0.3975], [0.2302, 0.2265, 0.2262]),
+            ])
+        }
+        train_dir = data_dir + 'train/'
+        test_dir = data_dir + 'val/'
+        trainset = torchvision.datasets.ImageFolder(train_dir, data_transforms['train'])
+        devset = torchvision.datasets.ImageFolder(test_dir, data_transforms['val'])
 
     trainloader = torch.utils.data.DataLoader(trainset, batch_size=params.batch_size,
                                               shuffle=True, num_workers=params.num_workers)

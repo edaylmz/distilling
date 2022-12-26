@@ -1,5 +1,5 @@
 {
-    "model_name": "resnet18",
+    "model_name": "resnet50",
 
     "learning_rate": 0.1,
     "schedule": [80, 120],
@@ -12,8 +12,8 @@
 
     "dataset": "cifar10",
 
-    "adversarial_model": "resnet18",
-    "adversarial_resume": "/content/semi/Skeptical2021/experiments/CIFAR10/baseline/resnet18/best_model.tar",
+    "adversarial_model": "resnet50",
+    "adversarial_resume": "/content/semi/Skeptical2021/experiments/CIFAR10/baseline/resnet50/best_model.tar",
     "temperature": 4,
     "weight": 0.04
 }

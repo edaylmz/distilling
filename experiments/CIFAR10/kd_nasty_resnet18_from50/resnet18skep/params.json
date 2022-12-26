@@ -11,11 +11,13 @@
     "num_workers": 8,
     "augmentation": 1,
     "cuda": 1,
+    "loc": 3,
+    "kd_delay": 5,
 
     "dataset": "cifar10",
 
-    "teacher_model": "resnet18",
-    "teacher_resume": "/content/semi/Skeptical2021/experiments/CIFAR10/kd_nasty_resnet18/nastier_resnet18/best_model.tar",
+    "teacher_model": "resnet50",
+    "teacher_resume": "/content/semi/Skeptical2021/experiments/CIFAR10/kd_nasty_resnet50/nasty_resnet50/best_model.tar",
     "temperature": 4,
     "alpha": 0.9
 }
