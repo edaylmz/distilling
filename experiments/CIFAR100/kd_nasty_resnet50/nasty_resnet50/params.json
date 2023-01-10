@@ -13,7 +13,7 @@
     "dataset": "cifar100",
 
     "adversarial_model": "resnet50",
-    "adversarial_resume": "experiments/CIFAR100/baseline/resnet50/best_model.tar",
+    "adversarial_resume": "content/semi/Skeptical2021/experiments/CIFAR100/baseline/resnet50/best_model.tar",
     "temperature": 20,
     "weight": 0.005
 }

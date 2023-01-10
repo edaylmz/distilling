@@ -4,9 +4,9 @@
     "learning_rate": 0.1,
     "schedule": [60, 120, 160],
     "gamma": 0.2,
-    "batch_size": 256,
+    "batch_size": 64,
     "num_epochs": 50,
-    "num_workers": 4,
+    "num_workers": 2,
     "augmentation": 1,
     "cuda": 1,
 

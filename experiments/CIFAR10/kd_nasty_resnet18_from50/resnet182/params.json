@@ -15,7 +15,7 @@
     "dataset": "cifar10",
 
     "teacher_model": "resnet50",
-    "teacher_resume": "/content/semi/Skeptical2021/experiments/CIFAR10/kd_nasty_resnet50/nastier_resnet50/best_model.tar",
+    "teacher_resume": "/content/semi/Skeptical2021/experiments/CIFAR10/kd_nasty_resnet18_from50/nastier_resnet50/best_model.tar",
     "temperature": 4,
     "alpha": 0.9
 }
