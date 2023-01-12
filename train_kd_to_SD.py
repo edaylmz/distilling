@@ -289,7 +289,7 @@ if __name__ == "__main__":
     elif params.model_name == 'mobilenetv2':
         model = MobileNetV2_self(class_num=num_class)
     elif params.model_name == 'net':
-        model = Net(num_class,params)
+        model = Net(class_num=num_class)
     elif params.model_name == 'shufflenetv2':
         model = shufflenetv2(class_num=num_class)
     else:

@@ -13,7 +13,7 @@
     "dataset": "cifar100",
 
     "adversarial_model": "resnet50",
-    "adversarial_resume": "content/Semi/Skeptical2021/experiments/CIFAR100/kd_nasty_resnet50/nastier_resnet50/best_model.tar",
+    "adversarial_resume": "/content/Semi/Skeptical2021/experiments/CIFAR100/kd_nasty_resnet50/nastier_resnet50/best_model.tar",
     "temperature": 20,
     "weight": 0.005
 }

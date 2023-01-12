@@ -13,7 +13,7 @@
     "dataset": "medical",
 
     "teacher_model": "resnet50",
-    "teacher_resume": "content/semi/Skeptical2021/experiments/MEDICAL/kd_nasty_resnet50/nasty_resnet50/best_model.tar",
+    "teacher_resume": "/content/semi/Skeptical2021/experiments/MEDICAL/kd_nasty_resnet50/nasty_resnet50/best_model.tar",
 
     "temperature": 20,
     "alpha": 0.9

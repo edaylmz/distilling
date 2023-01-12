@@ -12,10 +12,10 @@
     "augmentation": 1,
     "cuda": 1,
 
-    "dataset": "cifar10",
+    "dataset": "medical",
 
     "teacher_model": "resnet50",
-    "teacher_resume": "content/semi/Skeptical2021/experiments/MEDICAL/kd_nasty_resnet50/nastier_resnet50/best_model.tar",
+    "teacher_resume": "/content/semi/Skeptical2021/experiments/MEDICAL/kd_nasty_resnet50/nastier_resnet50/best_model.tar",
     "temperature": 4,
     "alpha": 0.9
 }

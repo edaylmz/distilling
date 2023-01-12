@@ -16,6 +16,6 @@
 
     "teacher_model": "resnet18",
     "teacher_resume": "/content/semi/Skeptical2021/experiments/MEDICAL/kd_nasty_resnet18/nastier_resnet18/best_model.tar",
-    "temperature": 4,
+    "temperature": 20,
     "alpha": 0.9
 }

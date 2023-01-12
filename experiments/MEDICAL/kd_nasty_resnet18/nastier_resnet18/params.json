@@ -14,7 +14,7 @@
 
     "adversarial_model": "resnet18",
     "adversarial_resume": "/content/semi/Skeptical2021/experiments/MEDICAL/kd_nasty_resnet18/nasty_resnet18/best_model.tar",
-    "temperature": 4,
-    "weight": 0.04
+    "temperature": 20,
+    "weight": 0.005
 }
 

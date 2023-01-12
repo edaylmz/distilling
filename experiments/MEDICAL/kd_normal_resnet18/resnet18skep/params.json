@@ -1,0 +1,23 @@
+{
+    "model_name": "resnet18",
+    "num_channels": 32,
+    "dropout_rate": 0.0,
+
+    "learning_rate": 0.1,
+    "schedule": [999],
+    "gamma": 0.1,
+    "batch_size": 512,
+    "num_epochs": 50,
+    "num_workers": 8,
+    "augmentation": 1,
+    "cuda": 1,
+    "loc": 3,
+    "kd_delay": 5,
+
+    "dataset": "medical",
+
+    "teacher_model": "resnet18",
+    "teacher_resume": "/content/semi/Skeptical2021/experiments/MEDICAL/baseline/resnet18/best_model.tar",
+    "temperature": 20,
+    "alpha": 0.9
+}

@@ -13,7 +13,7 @@
     "dataset": "cifar100",
 
     "teacher_model": "resnet18",
-    "teacher_resume": "content/semi/Skeptical2021/experiments/CIFAR100/kd_nasty_resnet18/nasty_resnet18/best_model.tar",
+    "teacher_resume": "/content/semi/Skeptical2021/experiments/CIFAR100/kd_nasty_resnet18/nasty_resnet18/best_model.tar",
 
     "temperature": 20,
     "alpha": 0.9
